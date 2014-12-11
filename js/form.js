@@ -55,7 +55,7 @@ window.onload = function () {
 	function resetNewsletter(){
 		document.forms["newsletter"].reset();
 		for(var i = 0;i <= 3; i++){
-			fields[i].classList.remove("error")
+			fields[i].classList.remove("error");
 		}
 	}
 
