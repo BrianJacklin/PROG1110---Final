@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Cakes by Emily</title>
+	
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<script type="text/javascript" src="js/form.js"></script>
+
+</head>
+
+<body>
+	<div id="content">
+	<div id="header">
+		
+		<img src="img/cake.png" alt="Arrr it be a cake" height="200" width="200" />
+		<h1>Arrr Cakes!</h1>
+	</div>	
+	<div id="navbar">
+		<a href="#">Home</a>
+		<a href="#">Cakes</a>
+		<a href="#">Pastries</a>
+		<a href="#">Pies</a>
+		<a href="#">Mailing List</a>
+	</div>
+	
+	<div id="main">
+		<p>
+			Enter your info to be added to our email list with reminders about getting that birthday 
+			cake you want! Remember at Arrr Cakes!, we aim to make every birthday arrrsome!
+		</p>
+		<form id="newsletter" name="myform" method="post" action="thanks.html">
+			<fieldset>
+				<legend>Newsletter Signup!</legend>
+			<p>
+				<label for="firstName">First Name:</label>
+				<input type="text" id="firstName" name="firstName" />
+			</p>
+			<p>
+				<label for="lastName">Last Name:</label> 
+				<input type="text" id="lastName" name="lastName" />
+			</p>
+			<p>
+				<label for="email">E-Mail Address:</label>
+				<input type="text" id="email" name="email" />
+			</p>
+			<p>
+				<label for="birthday">Birthday (mm/dd/yyyy):</label>
+				<input type="text" id="birthday" name="birthday" />
+			</p>
+			<p>
+				<input id="submitNews" type="button" value="Join" />
+				<input id="resetNews" type="button" value="Clear" />
+			</p>
+			</fieldset>
+		</form>
+	</div>
+	<div id="footer">
+		<p>Copyright 2014&copy; | Arrr Cakes!</p>
+		<p>123 Fake St, Fake Town, USA, 12345</p>
+	</div>
+	</div>
+</body>
+</html>

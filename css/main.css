@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: Arial;
+	transition: all 0.4s ease-in-out;
+}
+body  {
+	background-color: lightblue;
+}
+
+#content {
+	width: 700px;
+	height: 100%;
+	background: #fff;
+	box-shadow: 0 0 10px #000;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #0099CC;
+	height: 200px;
+}
+
+	#header img {
+		float: left;
+	}
+	
+	#header h1 {
+		font-size: 300%;
+		color: white;
+		padding: 70px 0 0;
+	}
+
+#navbar {
+	color: #FFFFFF;
+	width: 700px;
+	margin: 0 auto;
+	height: auto;
+	background: #0099CC;
+	height: 40px;
+	line-height: 40px;
+}
+
+	#navbar a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		color: black;
+		text-decoration: none;
+		text-align: center;
+		color: #fff;
+		font-size: 16pt;
+	}
+	#navbar a:hover {
+		background: #006B8F;
+	}
+#main {
+	clear: left;
+	padding: 25px;
+
+}
+
+#footer{
+	font-size: 8pt;
+	width: 700px;
+	padding: 10px;
+	text-align:center;
+	border-top: 1px solid #0099cc;
+	position: absolute;
+	bottom: 0;
+}
+
+form {
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+
+form p {
+	padding: 5px 0;
+}
+form input{
+	display: block;
+	width: 100%;
+}
+fieldset{
+	border: 1px solid #e1e1e1;
+	padding: 25px;
+	height: 100%;
+	border-radius: 4px;
+	margin: 1em;
+	background: #fff;
+}
+legend{
+	font-weight: bold;
+	font-size: 14pt;
+	text-align:center;
+	background: #fff;
+	padding: 0 15px;
+}
+form input[type='text']{
+	padding: 5px;
+
+}
+form input[type='button']{
+	width: calc(50% - 5px);
+	margin-right: 10px;
+	float:left;
+	background: #0099cc;
+	background: linear-gradient(to bottom, #0099cc,#006B8F);
+	border: 1px solid #006B8F;
+	border-radius: 4px;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+form input[type='button']:nth-last-child(1){
+	margin-right: 0px;
+	background: linear-gradient(to bottom, #999,#666);
+	border: 1px solid #666;
+
+}
+.success{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: #fff;
+	top: 0;
+}
+.error{
+	background: yellow;
+	border: 2px solid red;
+}
